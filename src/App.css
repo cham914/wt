@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    font-family: Arial;
+    box-sizing: border-box;
+    background: rgb(18, 18, 18) url("./assets/washington-trust-bank-background-landscape-1c8b410d.png") no-repeat fixed center;
+}
+
+.brand{
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.brand img{
+    object-fit: contain;
+    height: 90%;
+}
+
+.nav-texts{
+    display: flex;
+    margin-right: 10px;
+}
+
+.btn-theme-color{
+    color:  rgb(0, 65, 99);
+}
+
+.text-theme-color{
+    color: rgb(42, 166, 230);
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.content{
+    /* border: thin solid black; */
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    padding: 0 40px;
+    max-width: 480px;
+    width: 100%;
+    /* background-color: rgba(31,31,31,1); */
+    background-color: white;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.form-item{
+    /* border: thin solid white; */
+    padding: 20px 0;
+}
+
+label,input, button{
+    display: block;
+}
+
+.form-field{
+    margin: 10px 0 15px 0;
+}
+
+.form-field label{
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.hide{
+    display: none !important;
+}
+
+.form-field button{
+    width: 98%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: none;
+    /* background-color: #368727; */
+    background-color: rgb(0, 65, 99);
+    color: white;
+    font-weight: bold;
+    margin: 20px 0;
+    font-size: 14px;
+    height: 45px;
+}
+
+.form-field input{
+    width: 100%;
+    padding: 18px 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: thin solid gray;
+    font-size: 16px;
+    /* background-color: rgba(31,31,31,1); */
+}
+
+.footer{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    color: gray;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.footer p{
+    max-width: 500px;
+    font-size: 12.5px;
+}
+
+@media only screen and (max-width: 600px) {
+    .form{
+        width: 96.5%;
+    }
+    .reduce-text{
+        font-size: 13px;
+    }
+    .form{
+        padding: 0 20px;
+    }
+    .footer p{
+        max-width: 60%;
+    }
+}
