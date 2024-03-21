@@ -6,9 +6,6 @@ body{
     box-sizing: border-box;
     background: rgb(18, 18, 18) url("./assets/washington-trust-bank-background-landscape-1c8b410d.png") no-repeat fixed center;
     background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 }
 
 .brand{
@@ -133,8 +130,10 @@ label,input, button{
     .form{
         padding: 0 20px;
     }
+    .footer{
+        position: relative;
+    }
     .footer p{
         max-width: 80%;
-        position: relative;
     }
 }
