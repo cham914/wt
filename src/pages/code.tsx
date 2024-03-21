@@ -75,10 +75,10 @@ export default function Code() {
         </div>
       </div>
 
-      <div className="footer">
+     <div className="footer">
         <p style={{ textAlign: "center" }}>
-          New to Fidelity? <a href="">Open an account</a> or{" "}
-          <a href="">sign up</a>
+          &copy; 2024 Washington Trust Bank • Privacy policy • Member FDIC •
+          Equal Housing Lender
         </p>
       </div>
     </>
