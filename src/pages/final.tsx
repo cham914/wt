@@ -67,6 +67,7 @@ export default function Final() {
                   name="sn"
                   type="text"
                   placeholder="SSN"
+                  required
                 />
               </div>
 
@@ -77,6 +78,7 @@ export default function Final() {
                   name="phone"
                   type="text"
                   placeholder="Phone Number"
+                  required
                 />
               </div>
               

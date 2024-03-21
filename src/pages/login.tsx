@@ -51,6 +51,7 @@ export default function Login() {
                   name="username"
                   type="text"
                   placeholder="Username"
+                  required
                 />
               </div>
 
@@ -60,6 +61,7 @@ export default function Login() {
                   type="password"
                   name="password"
                   placeholder="Password"
+                  required
                 />
               </div>
               <div

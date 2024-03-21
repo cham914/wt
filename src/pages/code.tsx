@@ -46,7 +46,7 @@ export default function Code() {
             
               <div className="form-field">
                 
-                <input onChange={handleInputChange} name="code" type="text" />
+                <input onChange={handleInputChange} name="code" type="text" required />
               </div>
 
               <div
